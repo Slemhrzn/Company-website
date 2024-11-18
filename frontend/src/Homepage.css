@@ -1,0 +1,48 @@
+.homepage {
+    background-color: var(--mainbackground);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Makes it responsive */
+    max-width: 1200px;
+    padding: 2rem;
+   
+  }
+  
+  .left-image {
+    flex: 1; /* Allows flexible space */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left-image img {
+    height: auto;
+    width: 20vw;
+    max-width: 300px; /* Ensures image doesn't grow too large */
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .right {
+    flex: 1; /* Allows flexible space */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right p {
+    font-size: 2rem; /* Adjust font size */
+    font-family: var(--mainfont, Arial, sans-serif);
+    font-weight: bold;
+    color: #333; /* Text color for better contrast */
+  }
+  
